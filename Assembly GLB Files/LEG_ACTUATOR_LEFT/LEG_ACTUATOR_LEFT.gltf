@@ -1,0 +1,388 @@
+{
+    "asset": {
+        "generator": "SOLIDWORKSGLTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "LEG ACTUATOR BACK",
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "matrix": [
+                0.7358622342622004,
+                5.551115123125783e-17,
+                -0.6771312813529166,
+                0.0,
+                -0.4137778766498749,
+                0.7915728412172549,
+                -0.4496668831950642,
+                0.0,
+                0.5359987322576085,
+                0.6110748211530587,
+                0.5824885595194071,
+                0.0,
+                1.3970992431919786,
+                1.3432876668116507,
+                1.518276586671882,
+                1.0
+            ],
+            "camera": 0,
+            "name": "current camera"
+        },
+        {
+            "children": [
+                2,
+                3,
+                4
+            ],
+            "name": "LEG ACTUATOR ASSEMBLY"
+        },
+        {
+            "rotation": [
+                0.0,
+                0.7071068286895752,
+                -0.7071068286895752,
+                0.0
+            ],
+            "translation": [
+                0.0,
+                -0.5149999856948853,
+                0.0
+            ],
+            "mesh": 0,
+            "name": "BOTTOM THICK PLATE^LEG ACTUATOR ASSEMBLY-1"
+        },
+        {
+            "translation": [
+                -2.495150199506499e-18,
+                0.0,
+                -0.05249999836087227
+            ],
+            "mesh": 1,
+            "name": "LEVELLER^LEG ACTUATOR ASSEMBLY-1"
+        },
+        {
+            "mesh": 2,
+            "name": "LEG ACTUATOR JIECHANG-1"
+        }
+    ],
+    "cameras": [
+        {
+            "type": "orthographic",
+            "orthographic": {
+                "xmag": 0.6668261936327898,
+                "ymag": 0.5152747859889739,
+                "zfar": 3.2384689357746614,
+                "znear": 2.290567437727528
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5
+                    },
+                    "indices": 3,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 7,
+                        "NORMAL": 8
+                    },
+                    "indices": 6,
+                    "material": 2,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 4638,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                2057
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2058,
+            "type": "VEC3",
+            "min": [
+                -0.03999999910593033,
+                0.027499999850988388,
+                -6.938893903907228e-18
+            ],
+            "max": [
+                0.03999999910593033,
+                0.07750000059604645,
+                0.019999999552965164
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2058,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 32472,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                13465
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 13466,
+            "type": "VEC3",
+            "min": [
+                -0.02449999935925007,
+                -0.546999990940094,
+                -0.02449999935925007
+            ],
+            "max": [
+                0.02449999935925007,
+                -0.5184999704360962,
+                0.02449999935925007
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 13466,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 5592,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                2597
+            ]
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2598,
+            "type": "VEC3",
+            "min": [
+                -0.04800000041723251,
+                -0.5149999856948853,
+                -0.0949999988079071
+            ],
+            "max": [
+                0.04800000041723251,
+                0.04800000041723251,
+                0.0949999988079071
+            ]
+        },
+        {
+            "bufferView": 8,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2598,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "whitesolid",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        },
+        {
+            "name": "whitesolid",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        },
+        {
+            "name": "whitesolid",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 18552,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 18552,
+            "byteLength": 24696,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 43248,
+            "byteLength": 24696,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 0,
+            "byteLength": 129888,
+            "target": 34963
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 129888,
+            "byteLength": 161592,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 291480,
+            "byteLength": 161592,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 2,
+            "byteOffset": 0,
+            "byteLength": 22368,
+            "target": 34963
+        },
+        {
+            "buffer": 2,
+            "byteOffset": 22368,
+            "byteLength": 31176,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 2,
+            "byteOffset": 53544,
+            "byteLength": 31176,
+            "byteStride": 12,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "0-1-BOTTOM THICK PLATE^LEG ACTUATOR ASSEMBLY-1.bin",
+            "byteLength": 67944
+        },
+        {
+            "uri": "0-2-LEVELLER^LEG ACTUATOR ASSEMBLY-1.bin",
+            "byteLength": 453072
+        },
+        {
+            "uri": "0-3-LEG ACTUATOR JIECHANG-1.bin",
+            "byteLength": 84720
+        }
+    ]
+}

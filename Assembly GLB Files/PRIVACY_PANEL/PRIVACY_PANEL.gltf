@@ -1,0 +1,276 @@
+{
+    "asset": {
+        "generator": "SOLIDWORKSGLTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "18mm THK PRIVACY PANEL 1800 X 1200HT",
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "matrix": [
+                0.7488789994775225,
+                0.0,
+                -0.6627067557687526,
+                0.0,
+                -0.3820980595098718,
+                0.8170464509166708,
+                -0.43178254939640937,
+                0.0,
+                0.5414622027993603,
+                0.5765718489871597,
+                0.6118689286891371,
+                0.0,
+                2.5639713812435527,
+                2.730225142938603,
+                2.8973664535036874,
+                1.0
+            ],
+            "camera": 0,
+            "name": "current camera"
+        },
+        {
+            "mesh": 0,
+            "name": "18mm THK PRIVACY PANEL"
+        }
+    ],
+    "cameras": [
+        {
+            "type": "orthographic",
+            "orthographic": {
+                "xmag": 1.0894003696032961,
+                "ymag": 0.8418093765116378,
+                "zfar": 6.707505296589384,
+                "znear": 3.7491569398200193
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 3,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 25926,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                10529
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 10530,
+            "type": "VEC3",
+            "min": [
+                -0.8999559283256531,
+                -0.40295588970184326,
+                -0.004000000189989805
+            ],
+            "max": [
+                0.8999559283256531,
+                0.40295588970184326,
+                0.004000000189989805
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 10530,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 103704,
+            "componentType": 5125,
+            "count": 1020,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                483
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 126360,
+            "componentType": 5126,
+            "count": 484,
+            "type": "VEC3",
+            "min": [
+                -0.8974999785423279,
+                -0.40049999952316284,
+                -0.008999999612569809
+            ],
+            "max": [
+                0.8974999785423279,
+                0.40049999952316284,
+                0.008999999612569809
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 126360,
+            "componentType": 5126,
+            "count": 484,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 484,
+            "type": "VEC2",
+            "min": [
+                -0.18143515288829803,
+                0.19591668248176575
+            ],
+            "max": [
+                1.181435227394104,
+                0.8040833473205566
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "polishedaluminum",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.7893137541670049,
+                    0.8277258041957908,
+                    0.8512516536623489,
+                    1.0
+                ],
+                "metallicFactor": 1.0,
+                "roughnessFactor": 0.07999999523162843
+            }
+        },
+        {
+            "name": "clothburlap",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "images": [
+        {
+            "uri": "burlap.jpg"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9729,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 107784,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 107784,
+            "byteLength": 132168,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 239952,
+            "byteLength": 132168,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 372120,
+            "byteLength": 3872,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "18mm THK PRIVACY PANEL.bin",
+            "byteLength": 375992
+        }
+    ]
+}

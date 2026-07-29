@@ -1,0 +1,162 @@
+{
+    "asset": {
+        "generator": "SOLIDWORKSGLTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "PRIVACY PANEL BRACKET 1",
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "matrix": [
+                0.7776943210394237,
+                7.092628268253873e-17,
+                -0.6286426194770997,
+                0.0,
+                -0.3405006213203846,
+                0.8406078594354933,
+                -0.42123360921905284,
+                0.0,
+                0.5284419267085662,
+                0.5416441882410239,
+                0.6537359585040893,
+                0.0,
+                0.3579231226979471,
+                0.37811608079282705,
+                0.39843195787155683,
+                1.0
+            ],
+            "camera": 0,
+            "name": "current camera"
+        },
+        {
+            "mesh": 0,
+            "name": "PRIVACY PANEL BRACKET_25mm THKMirror"
+        }
+    ],
+    "cameras": [
+        {
+            "type": "orthographic",
+            "orthographic": {
+                "xmag": 0.14876726019529007,
+                "ymag": 0.11495651924181506,
+                "zfar": 0.7465597187992069,
+                "znear": 0.5007701746765976
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 2292,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                1047
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1048,
+            "type": "VEC3",
+            "min": [
+                -1.1461018844329706e-16,
+                -1.117934994912111e-16,
+                0.0
+            ],
+            "max": [
+                0.10000000149011612,
+                0.125,
+                0.03500000014901161
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1048,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "defaultplastic",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5989418101001601,
+                    0.6455552910764322,
+                    0.8591735777059335,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.16999999880790712
+            }
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 9168,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 9168,
+            "byteLength": 12576,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 21744,
+            "byteLength": 12576,
+            "byteStride": 12,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "PRIVACY PANEL BRACKET_25mm THKMirror.bin",
+            "byteLength": 34320
+        }
+    ]
+}
