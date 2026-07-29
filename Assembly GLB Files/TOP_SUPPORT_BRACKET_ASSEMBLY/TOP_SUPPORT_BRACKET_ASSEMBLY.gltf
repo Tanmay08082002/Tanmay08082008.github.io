@@ -1,0 +1,295 @@
+{
+    "asset": {
+        "generator": "SOLIDWORKSGLTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "TOP SUPPORT BRACKET 800D",
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "matrix": [
+                0.7501423003406154,
+                2.7755575615628914e-17,
+                -0.6612764393502087,
+                0.0,
+                -0.3812432627751762,
+                0.8170785877589112,
+                -0.432476769335003,
+                0.0,
+                0.5403148191825098,
+                0.5765263059270612,
+                0.6129252113805309,
+                0.0,
+                0.819735554843886,
+                0.8111339150626959,
+                0.9258653055812508,
+                1.0
+            ],
+            "camera": 0,
+            "name": "current camera"
+        },
+        {
+            "children": [
+                2,
+                3,
+                4
+            ],
+            "name": "TOP SUPPORT BRACKET"
+        },
+        {
+            "translation": [
+                0.01997305639088154,
+                -0.0672280564904213,
+                -0.010123549029231071
+            ],
+            "mesh": 0,
+            "name": "TOP SUPPORT BRACKET BODY BEND AND DEVELOP-1"
+        },
+        {
+            "translation": [
+                0.07147305458784103,
+                -0.054728053510189056,
+                -0.007623549550771713
+            ],
+            "mesh": 1,
+            "name": "TOP BRKT CONNECTION BRKT-1"
+        },
+        {
+            "rotation": [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "translation": [
+                -0.03152694180607796,
+                -0.054728053510189056,
+                -0.007623549550771713
+            ],
+            "mesh": 1
+        }
+    ],
+    "cameras": [
+        {
+            "type": "orthographic",
+            "orthographic": {
+                "xmag": 0.32414322015552927,
+                "ymag": 0.2504743064838181,
+                "zfar": 2.1829902169820388,
+                "znear": 1.1287729718185955
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5
+                    },
+                    "indices": 3,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 2580,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                1203
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1204,
+            "type": "VEC3",
+            "min": [
+                -0.3499999940395355,
+                0.0,
+                0.0
+            ],
+            "max": [
+                0.3499999940395355,
+                0.05000000074505806,
+                0.03799999877810478
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1204,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 1320,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                633
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 634,
+            "type": "VEC3",
+            "min": [
+                0.0,
+                -3.469446951953614e-18,
+                0.0
+            ],
+            "max": [
+                0.014999999664723873,
+                0.03200000151991844,
+                0.054999999701976776
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 634,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "mattesteel",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 1.0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "name": "defaultplastic",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5989418101001601,
+                    0.6455552910764322,
+                    0.8591735777059335,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.16999999880790712
+            }
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 10320,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 10320,
+            "byteLength": 14448,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 24768,
+            "byteLength": 14448,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 0,
+            "byteLength": 5280,
+            "target": 34963
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 5280,
+            "byteLength": 7608,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 12888,
+            "byteLength": 7608,
+            "byteStride": 12,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "0-1-TOP SUPPORT BRACKET BODY BEND AND DEVELOP-1.bin",
+            "byteLength": 39216
+        },
+        {
+            "uri": "0-2-TOP BRKT CONNECTION BRKT-1.bin",
+            "byteLength": 20496
+        }
+    ]
+}
