@@ -1,0 +1,472 @@
+{
+    "asset": {
+        "generator": "SOLIDWORKSGLTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "CABLE TRAY ASSEMBLY 1800L",
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "matrix": [
+                0.7980792775272173,
+                -0.37516808099157156,
+                -0.47150649813839973,
+                0.0,
+                -0.04061995866850933,
+                0.7472369428181015,
+                -0.6633151364514653,
+                0.0,
+                0.6011817410229653,
+                0.5485306393383683,
+                0.5811150075222953,
+                0.0,
+                2.1290554707796288,
+                1.8822279000393516,
+                2.076351284169391,
+                1.0
+            ],
+            "camera": 0,
+            "name": "current camera"
+        },
+        {
+            "children": [
+                2,
+                6
+            ],
+            "name": "NEW CABLE TRAY ASSEMBLY (SHARING STD)"
+        },
+        {
+            "translation": [
+                0.025802945718169212,
+                -0.015150449238717556,
+                -0.022453101351857185
+            ],
+            "children": [
+                3,
+                4,
+                5
+            ],
+            "name": "NEW CABLE TRAY BODY WELD ASSEMBLY (SHARING STD)"
+        },
+        {
+            "translation": [
+                0.7374809384346008,
+                -0.10011366754770279,
+                0.04833832383155823
+            ],
+            "mesh": 0,
+            "name": "NEW CABLE TRAY END COVER BEND AND DEVELOP (SHARING)_1450W 750D-3"
+        },
+        {
+            "translation": [
+                -0.018019067123532295,
+                -0.10111366957426071,
+                0.04833832383155823
+            ],
+            "mesh": 1,
+            "name": "NEW CABLE TRAY BODY BEND AND DEVELOP (SHARING STD)-1"
+        },
+        {
+            "rotation": [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "translation": [
+                -0.7735190391540527,
+                -0.10011366754770279,
+                0.04833832383155823
+            ],
+            "mesh": 2,
+            "name": "NEW CABLE TRAY END COVER BEND AND DEVELOP (SHARING)_1450W 750D-2"
+        },
+        {
+            "translation": [
+                0.007783879991620779,
+                -0.011264119297266006,
+                0.025885222479701042
+            ],
+            "mesh": 3,
+            "name": "NEW CABLE TRAY COVER BEND AND DEVELOP (SHARING STD)-1"
+        }
+    ],
+    "cameras": [
+        {
+            "type": "orthographic",
+            "orthographic": {
+                "xmag": 0.837913591636436,
+                "ymag": 0.6474786844463368,
+                "zfar": 5.07492243606421,
+                "znear": 2.7552933170022853
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5
+                    },
+                    "indices": 3,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 7,
+                        "NORMAL": 8
+                    },
+                    "indices": 6,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 10,
+                        "NORMAL": 11
+                    },
+                    "indices": 9,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 7548,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                3683
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3684,
+            "type": "VEC3",
+            "min": [
+                -0.014999999664723873,
+                -4.83554168928535e-17,
+                -0.148499995470047
+            ],
+            "max": [
+                4.336808689942018e-19,
+                0.125,
+                0.148499995470047
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3684,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 8172,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                3861
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3862,
+            "type": "VEC3",
+            "min": [
+                -0.7555000185966492,
+                0.0,
+                -0.15000000596046448
+            ],
+            "max": [
+                0.7555000185966492,
+                0.125,
+                0.15000000596046448
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3862,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 7548,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                3683
+            ]
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3684,
+            "type": "VEC3",
+            "min": [
+                -0.014999999664723873,
+                -4.83554168928535e-17,
+                -0.148499995470047
+            ],
+            "max": [
+                4.336808689942018e-19,
+                0.125,
+                0.148499995470047
+            ]
+        },
+        {
+            "bufferView": 8,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3684,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "bufferView": 9,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 6300,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                2927
+            ]
+        },
+        {
+            "bufferView": 10,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2928,
+            "type": "VEC3",
+            "min": [
+                -0.7515000104904175,
+                -0.010999999940395355,
+                -0.15199999511241913
+            ],
+            "max": [
+                0.7515000104904175,
+                0.020999999716877937,
+                0.15199999511241913
+            ]
+        },
+        {
+            "bufferView": 11,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2928,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "mattesteel",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 1.0,
+                "roughnessFactor": 0.5
+            }
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 30192,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 30192,
+            "byteLength": 44208,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 74400,
+            "byteLength": 44208,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 0,
+            "byteLength": 32688,
+            "target": 34963
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 32688,
+            "byteLength": 46344,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 79032,
+            "byteLength": 46344,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 2,
+            "byteOffset": 0,
+            "byteLength": 30192,
+            "target": 34963
+        },
+        {
+            "buffer": 2,
+            "byteOffset": 30192,
+            "byteLength": 44208,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 2,
+            "byteOffset": 74400,
+            "byteLength": 44208,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 3,
+            "byteOffset": 0,
+            "byteLength": 25200,
+            "target": 34963
+        },
+        {
+            "buffer": 3,
+            "byteOffset": 25200,
+            "byteLength": 35136,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 3,
+            "byteOffset": 60336,
+            "byteLength": 35136,
+            "byteStride": 12,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "1-1-NEW CABLE TRAY END COVER BEND AND DEVELOP (SHARING)_1450W 750D-3.bin",
+            "byteLength": 118608
+        },
+        {
+            "uri": "1-2-NEW CABLE TRAY BODY BEND AND DEVELOP (SHARING STD)-1.bin",
+            "byteLength": 125376
+        },
+        {
+            "uri": "1-3-NEW CABLE TRAY END COVER BEND AND DEVELOP (SHARING)_1450W 750D-2.bin",
+            "byteLength": 118608
+        },
+        {
+            "uri": "1-4-NEW CABLE TRAY COVER BEND AND DEVELOP (SHARING STD)-1.bin",
+            "byteLength": 95472
+        }
+    ]
+}
