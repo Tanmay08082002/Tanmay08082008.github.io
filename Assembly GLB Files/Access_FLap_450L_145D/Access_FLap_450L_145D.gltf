@@ -1,0 +1,162 @@
+{
+    "asset": {
+        "generator": "SOLIDWORKSGLTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "Default",
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "matrix": [
+                0.7485985420796317,
+                0.0,
+                -0.66302354618539,
+                0.0,
+                -0.3822872804207139,
+                0.8170394597791177,
+                -0.43162826180914277,
+                0.0,
+                0.541716399996146,
+                0.5765817558368002,
+                0.6116345484121775,
+                0.0,
+                0.5997425196951118,
+                0.6493424889079399,
+                0.6771499721993014,
+                1.0
+            ],
+            "camera": 0,
+            "name": "current camera"
+        },
+        {
+            "mesh": 0,
+            "name": "Access FLap 450L 145D"
+        }
+    ],
+    "cameras": [
+        {
+            "type": "orthographic",
+            "orthographic": {
+                "xmag": 0.25293627406201197,
+                "ymag": 0.1954507572297365,
+                "zfar": 1.5804111997648977,
+                "znear": 0.8704673639581486
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 6966,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                3129
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3130,
+            "type": "VEC3",
+            "min": [
+                -0.22499999403953552,
+                0.0,
+                -0.07249999791383743
+            ],
+            "max": [
+                0.22499999403953552,
+                0.02199999988079071,
+                0.07249999791383743
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3130,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "defaultplastic",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5989418101001601,
+                    0.6455552910764322,
+                    0.8591735777059335,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.16999999880790712
+            }
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 27864,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 27864,
+            "byteLength": 37560,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 65424,
+            "byteLength": 37560,
+            "byteStride": 12,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "Access FLap 450L 145D.bin",
+            "byteLength": 102984
+        }
+    ]
+}
