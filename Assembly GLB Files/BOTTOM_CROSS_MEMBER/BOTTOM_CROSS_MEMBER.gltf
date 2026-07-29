@@ -1,0 +1,381 @@
+{
+    "asset": {
+        "generator": "SOLIDWORKSGLTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "BOTTOM CROSS MEMBER ASSEMBLY 800D",
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "matrix": [
+                0.9986844462227248,
+                -0.0,
+                0.05127744994448747,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                -0.05127744994448747,
+                -0.0,
+                0.9986844462227248,
+                0.0,
+                -0.08357190564184544,
+                0.0,
+                1.6276543080057126,
+                1.0
+            ],
+            "camera": 0,
+            "name": "current camera"
+        },
+        {
+            "children": [
+                2,
+                3,
+                4
+            ],
+            "name": "BOTTOM CROSS MEMBER ASSEMBLY TESTING"
+        },
+        {
+            "rotation": [
+                0.0,
+                0.7071068286895752,
+                0.0,
+                0.7071068286895752
+            ],
+            "translation": [
+                2.6433297892658643e-15,
+                1.7175988520634893e-16,
+                0.38350000977516174
+            ],
+            "mesh": 0,
+            "name": "BOTTOM CROSS MEMBER PLATE-1"
+        },
+        {
+            "mesh": 1,
+            "name": "BOTTOM CROSS MEMBER PIPE TESTING-1"
+        },
+        {
+            "rotation": [
+                2.74495526598068e-33,
+                -0.7071068286895752,
+                2.74495526598068e-33,
+                0.7071068286895752
+            ],
+            "translation": [
+                1.7997756063259374e-17,
+                1.6501557065229377e-16,
+                -0.38350000977516174
+            ],
+            "mesh": 2,
+            "name": "BOTTOM CROSS MEMBER PLATE-2"
+        }
+    ],
+    "cameras": [
+        {
+            "type": "orthographic",
+            "orthographic": {
+                "xmag": 0.356450564210636,
+                "ymag": 0.2754390723445823,
+                "zfar": 2.422637597297248,
+                "znear": 1.2333787945129253
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5
+                    },
+                    "indices": 3,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 7,
+                        "NORMAL": 8
+                    },
+                    "indices": 6,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 2628,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                1199
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1200,
+            "type": "VEC3",
+            "min": [
+                -5.7192413982831265e-33,
+                -0.03550000116229057,
+                -0.020500000566244125
+            ],
+            "max": [
+                0.014999999664723873,
+                0.03550000116229057,
+                0.020500000566244125
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1200,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 6684,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                3041
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3042,
+            "type": "VEC3",
+            "min": [
+                -0.02250000089406967,
+                -0.03750000149011612,
+                -0.39399999380111694
+            ],
+            "max": [
+                0.02250000089406967,
+                0.03750000149011612,
+                0.39399999380111694
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3042,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 2628,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                1199
+            ]
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1200,
+            "type": "VEC3",
+            "min": [
+                -5.7192413982831265e-33,
+                -0.03550000116229057,
+                -0.020500000566244125
+            ],
+            "max": [
+                0.014999999664723873,
+                0.03550000116229057,
+                0.020500000566244125
+            ]
+        },
+        {
+            "bufferView": 8,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1200,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "polishedsteel",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5731588967040465,
+                    0.5417983787732485,
+                    0.5113978427838181,
+                    1.0
+                ],
+                "metallicFactor": 1.0,
+                "roughnessFactor": 0.13999999761581422
+            }
+        },
+        {
+            "name": "polishedsteel",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5731588967040465,
+                    0.5417983787732485,
+                    0.5113978427838181,
+                    1.0
+                ],
+                "metallicFactor": 1.0,
+                "roughnessFactor": 0.13999999761581422
+            }
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 10512,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 10512,
+            "byteLength": 14400,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 24912,
+            "byteLength": 14400,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 0,
+            "byteLength": 26736,
+            "target": 34963
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 26736,
+            "byteLength": 36504,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 63240,
+            "byteLength": 36504,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 2,
+            "byteOffset": 0,
+            "byteLength": 10512,
+            "target": 34963
+        },
+        {
+            "buffer": 2,
+            "byteOffset": 10512,
+            "byteLength": 14400,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 2,
+            "byteOffset": 24912,
+            "byteLength": 14400,
+            "byteStride": 12,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "0-1-BOTTOM CROSS MEMBER PLATE-1.bin",
+            "byteLength": 39312
+        },
+        {
+            "uri": "0-2-BOTTOM CROSS MEMBER PIPE TESTING-1.bin",
+            "byteLength": 99744
+        },
+        {
+            "uri": "0-3-BOTTOM CROSS MEMBER PLATE-2.bin",
+            "byteLength": 39312
+        }
+    ]
+}
