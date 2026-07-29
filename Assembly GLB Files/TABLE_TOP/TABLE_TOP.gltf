@@ -1,0 +1,207 @@
+{
+    "asset": {
+        "generator": "SOLIDWORKSGLTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "TABLE TOP 1800 X 800",
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "matrix": [
+                0.746720224495866,
+                1.2435389792828642e-16,
+                -0.6651382610621972,
+                0.0,
+                -0.3835494557655386,
+                0.8169939726034154,
+                -0.43059338558743415,
+                0.0,
+                0.5434139502357321,
+                0.5766462075915263,
+                0.6100659226341917,
+                0.0,
+                2.584510449439067,
+                2.7550651264623873,
+                2.901511363870493,
+                1.0
+            ],
+            "camera": 0,
+            "name": "current camera"
+        },
+        {
+            "mesh": 0,
+            "name": "TABLE TOP STD"
+        }
+    ],
+    "cameras": [
+        {
+            "type": "orthographic",
+            "orthographic": {
+                "xmag": 1.0999974018867018,
+                "ymag": 0.8499979923669968,
+                "zfar": 6.725992221044956,
+                "znear": 3.7710969183311702
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 672,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                333
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 334,
+            "type": "VEC3",
+            "min": [
+                -0.8999999761581421,
+                0.0,
+                -0.4000000059604645
+            ],
+            "max": [
+                0.8999999761581421,
+                0.02500000037252903,
+                0.4000000059604645
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 334,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 334,
+            "type": "VEC2",
+            "min": [
+                -0.2175358384847641,
+                0.1810951679944992
+            ],
+            "max": [
+                1.2175358533859253,
+                0.8189048171043396
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "polishedteak",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.1899999998509884
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "images": [
+        {
+            "uri": "polished teak.jpg"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9729,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 2688,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2688,
+            "byteLength": 4008,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6696,
+            "byteLength": 4008,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 10704,
+            "byteLength": 2672,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "TABLE TOP STD.bin",
+            "byteLength": 13376
+        }
+    ]
+}
